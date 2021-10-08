@@ -1,0 +1,31 @@
+
+// / {
+//     aliases {
+//        tmp116_alias = &i2c0;
+//     };
+// };
+
+/* I2C device example */
+&i2c0 {
+    ams_as6221: ams_as6221@48 {
+            compatible = "ams,as6221";
+            label = "AS6221";
+            /* reg is the I2C device address.
+             * It must match the node's unit address. */
+            reg = <0x48>;
+
+            /* Configure other I2C device properties as needed.
+             * Find your device's DT binding for details. */
+    };
+
+    // ti_tmp116: ti_tmp116@48 {
+    //         compatible = "ti,tmp116";
+    //         label = "TMP116";
+    //         /* reg is the I2C device address.
+    //          * It must match the node's unit address. */
+    //         reg = <0x48>;
+
+    //         /* Configure other I2C device properties as needed.
+    //          * Find your device's DT binding for details. */
+    // };
+};

@@ -1,0 +1,84 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/ron/Documents/PlatformIO/Projects/211002-220453-zephyr-ble-beacon/include",
+                "/Users/ron/Documents/PlatformIO/Projects/211002-220453-zephyr-ble-beacon/src",
+                "/Users/ron/.platformio/packages/framework-zephyr/include",
+                "/Users/ron/Documents/PlatformIO/Projects/211002-220453-zephyr-ble-beacon/.pio/build/nrf52840_dk/zephyr/include/generated",
+                "/Users/ron/.platformio/packages/framework-zephyr/soc/arm/nordic_nrf/nrf52",
+                "/Users/ron/.platformio/packages/framework-zephyr/subsys/bluetooth",
+                "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx",
+                "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/drivers/include",
+                "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/mdk",
+                "/Users/ron/.platformio/packages/framework-zephyr/modules/hal_nordic/nrfx",
+                "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/debug/segger/SEGGER",
+                "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/debug/segger/Config",
+                "/Users/ron/.platformio/packages/framework-zephyr/modules/segger",
+                "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/crypto/tinycrypt/lib/include",
+                "/Users/ron/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/ron/Documents/PlatformIO/Projects/211002-220453-zephyr-ble-beacon/include",
+                    "/Users/ron/Documents/PlatformIO/Projects/211002-220453-zephyr-ble-beacon/src",
+                    "/Users/ron/.platformio/packages/framework-zephyr/include",
+                    "/Users/ron/Documents/PlatformIO/Projects/211002-220453-zephyr-ble-beacon/.pio/build/nrf52840_dk/zephyr/include/generated",
+                    "/Users/ron/.platformio/packages/framework-zephyr/soc/arm/nordic_nrf/nrf52",
+                    "/Users/ron/.platformio/packages/framework-zephyr/subsys/bluetooth",
+                    "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                    "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx",
+                    "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/drivers/include",
+                    "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/mdk",
+                    "/Users/ron/.platformio/packages/framework-zephyr/modules/hal_nordic/nrfx",
+                    "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/debug/segger/SEGGER",
+                    "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/debug/segger/Config",
+                    "/Users/ron/.platformio/packages/framework-zephyr/modules/segger",
+                    "/Users/ron/.platformio/packages/framework-zephyr/_pio/modules/crypto/tinycrypt/lib/include",
+                    "/Users/ron/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50200",
+                "ARDUINO_NRF52_DK",
+                "BUILD_VERSION=zephyr-v20600",
+                "KERNEL",
+                "NRF52840_XXAA",
+                "_FORTIFY_SOURCE=2",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ],
+            "cStandard": "c99",
+            "forcedInclude": [
+                "/Users/ron/Documents/PlatformIO/Projects/211002-220453-zephyr-ble-beacon/.pio/build/nrf52840_dk/zephyr/include/generated/autoconf.h",
+                "/Users/ron/.platformio/packages/framework-zephyr/include/toolchain/zephyr_stdint.h",
+                ""
+            ],
+            "compilerPath": "/Users/ron/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-isystem",
+                "/Users/ron/.platformio/packages/framework-zephyr/lib/libc/minimal/include",
+                "-isystem",
+                "/Users/ron/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
+                "-isystem",
+                "/Users/ron/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
