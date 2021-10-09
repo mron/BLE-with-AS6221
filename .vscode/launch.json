@@ -19,7 +19,7 @@
             "svdPath": "/Users/ron/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
-                "task": "Pre-Debug (nrf52840_dk)"
+                "task": "Pre-Debug"
             }
         },
         {
