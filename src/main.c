@@ -521,7 +521,7 @@ void main(void)
 		//printk("temp is %d.%d oC\n", temp_value.val1, temp_value.val2);
 		printk("temp is %.3f oF\n", t.f );
 
-		uint16_t val = t.f ;
+		uint16_t val = t.f*100.0 ;
 		update_temperature(NULL, &ess_svc.attrs[2], val, &sensor_1);
 		update_temperature(NULL, &ess_svc.attrs[9], val, &sensor_2);
 
